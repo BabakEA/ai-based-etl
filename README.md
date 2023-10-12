@@ -40,10 +40,11 @@ The essence of our demonstration lies in harnessing the capabilities of GPT-3.5,
 Cd Fast-API
 bash start.sh
 ##### It will run the API on port 9009 , 
-test : 
-Localhost:9009/docs/
-![REST_application](/Data/Screenshot 2023-10-12 134109.png)
+## test : 
+- Localhost:9009/docs/
 
+
+![Alt text](/Data/Screenshot 2023-10-12 134109.png)
 
 ### Python query :
 Fast_API_query.ipynb
