@@ -43,8 +43,8 @@ bash start.sh
 ## test : 
 - Localhost:9009/docs/
 
+![REST_application](Data/Screenshot 2023-10-12 134109.png)
 
-![Alt text](Data/Screenshot 2023-10-12 134109.png)
 
 ### Python query :
 Fast_API_query.ipynb
