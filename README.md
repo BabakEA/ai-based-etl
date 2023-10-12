@@ -36,6 +36,49 @@ The essence of our demonstration lies in harnessing the capabilities of GPT-3.5,
 
 
 
+### Using Fast-API 
+Cd Fast-API
+bash start.sh
+##### It will run the API on port 9009 , 
+test : 
+Localhost:9009/docs/
+![REST_application](/Data/Screenshot 2023-10-12 134109.png)
+
+
+### Python query :
+Fast_API_query.ipynb
+
+```
+import requests
+
+url = "http://127.0.0.1:9009/analyze/"  # Replace with the correct URL
+api_key = "sk-EkqK*********************T0zU3"  # Replace with your API key
+files = {
+    'Raw_data': ('table_A.csv', open('./Data/table_A.csv', 'rb'), 'text/csv'),
+    'Target_data': ('template.csv', open('./Data/template.csv', 'rb'), 'text/csv')
+}
+
+headers = {
+    'accept': 'application/json',
+}
+params = {
+    'api_key': api_key,
+}
+response = requests.post(url, headers=headers, params=params, files=files)
+
+print(response.status_code)
+print(response.json())
+```
+
+
+
+
+
+
+
+
+
+
 
 
 
