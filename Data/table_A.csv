@@ -1,0 +1,11 @@
+Date_of_Policy,FullName,Insurance_Plan,Policy_No,Monthly_Premium,Department,JobTitle,Policy_Start,Full_Name,Insurance_Type,Policy_Num,Monthly_Cost
+05/01/2023,John Doe,Gold Plan,AB-12345,150.00,IT,Software Engineer,05/01/2023,John Doe,Gold,AB-12345,150.00
+05/02/2023,Jane Smith,Silver Plan,CD-67890,100.00,HR,HR Manager,05/02/2023,Jane Smith,Silver,CD-67890,100.00
+05/03/2023,Michael Brown,Bronze Plan,EF-10111,50.00,Marketing,Marketing Coordinator,05/03/2023,Michael Brown,Bronze,EF-10111,50.00
+05/04/2023,Alice Johnson,Gold Plan,GH-12121,150.00,Finance,Financial Analyst,05/04/2023,Alice Johnson,Gold,GH-12121,150.00
+05/05/2023,Bob Wilson,Silver Plan,IJ-13131,100.00,Sales,Sales Executive,05/05/2023,Bob Wilson,Silver,IJ-13131,100.00
+05/06/2023,Carol Martinez,Bronze Plan,KL-14141,50.00,Operations,Operations Manager,05/06/2023,Carol Martinez,Bronze,KL-14141,50.00
+05/07/2023,David Anderson,Gold Plan,MN-15151,150.00,Legal,Attorney,05/07/2023,David Anderson,Gold,MN-15151,150.00
+05/08/2023,Eva Thomas,Silver Plan,OP-16161,100.00,Product,Product Manager,05/08/2023,Eva Thomas,Silver,OP-16161,100.00
+05/09/2023,Frank Jackson,Bronze Plan,QR-17171,50.00,Engineering,Engineer,05/09/2023,Frank Jackson,Bronze,QR-17171,50.00
+05/10/2023,Grace White,Gold Plan,ST-18181,150.00,Design,Graphic Designer,05/10/2023,Grace White,Gold,ST-18181,150.00

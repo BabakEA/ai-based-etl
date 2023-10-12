@@ -1,0 +1,89 @@
+
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Flask Dashboard</title>
+</head>
+<body>
+    <h1>Flask Dashboard</h1>
+    <form action="/analyze" method="POST" enctype="multipart/form-data">
+        <label for="api_key">API Key:</label>
+        <input type="text" name="api_key" id="api_key" required><br><br>
+
+        <label for="file_upload_1">Raw Dataset :</label>
+        <input type="file" name="file_upload_1" id="file_upload_1" accept=".csv"><br><br>
+
+        <label for="file_upload_2">Target Sample:</label>
+        <input type="file" name="file_upload_2" id="file_upload_2" accept=".csv"><br><br>
+
+        
+        <button type="submit" name="analysis" id="analysis" onclick="showLoading()">Analysis</button>
+
+    </form>
+
+   <br>
+    <h2>Analysis Result:</h2>
+    <div id="loading-message" style="display: none;">
+         Processing... Please wait.
+         <progress id="progress-bar" value="0" max="100"></progress>
+
+    </div>
+
+
+
+
+
+<div >
+    <div id="Api_key">
+        {{ Api_key | safe }}
+        </div>
+        <br>
+
+        <a href="{{ url_for('download_file') }}">Download the Report</a>
+
+        
+    <div id="describe_text">
+        {{ describe_text | safe }}
+    </div>
+    
+
+    
+</div>
+
+
+
+
+<script>
+    function showLoading() {
+        // Show the loading message div
+        document.getElementById("loading-message").style.display = "block";
+    }
+
+    function showProgress() {
+        var progressBar = document.getElementById("progress-bar");
+        var interval = 10;  // Adjust this interval as needed
+        var value = 0;
+
+        var updateProgress = function () {
+            if (value < 100) {
+                value += 1;  // Simulate progress increment
+                progressBar.value = value;
+             setTimeout(updateProgress, interval);
+            }
+        };
+
+        // Start the progress bar update
+        updateProgress();
+    }
+
+</script>
+</body>
+</html>
+
+
+
+

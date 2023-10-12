@@ -1,0 +1,11 @@
+PolicyDate,Name,PlanType,Policy_ID,PremiumAmount,Hobby,MaritalStatus,StartDate,Employee_Name,Plan_Name,PolicyID,Cost
+2023-05-01,Doe, John,GoldPackage,AB12345,Photography,Married,2023-05-01,John Doe,Gold,AB12345,150
+2023-05-02,Smith, Jane,SilverPackage,CD67890,Reading,Single,2023-05-02,Jane Smith,Silver,CD67890,100
+2023-05-03,Brown, Michael,BronzePackage,EF10111,Traveling,Divorced,2023-05-03,Michael Brown,Bronze,EF10111,50
+2023-05-04,Johnson, Alice,GoldPackage,GH12121,Cooking,Married,2023-05-04,Alice Johnson,Gold,GH12121,150
+2023-05-05,Wilson, Bob,SilverPackage,IJ13131,Hiking,Single,2023-05-05,Bob Wilson,Silver,IJ13131,100
+2023-05-06,Martinez, Carol,BronzePackage,KL14141,Swimming,Divorced,2023-05-06,Carol Martinez,Bronze,KL14141,50
+2023-05-07,Anderson, David,GoldPackage,MN15151,Gaming,Married,2023-05-07,David Anderson,Gold,MN15151,150
+2023-05-08,Thomas, Eva,SilverPackage,OP16161,Painting,Single,2023-05-08,Eva Thomas,Silver,OP16161,100
+2023-05-09,Jackson, Frank,BronzePackage,QR17171,Writing,Divorced,2023-05-09,Frank Jackson,Bronze,QR17171,50
+2023-05-10,White, Grace,GoldPackage,ST18181,Dancing,Married,2023-05-10,Grace White,Gold,ST18181,150
