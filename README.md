@@ -31,7 +31,7 @@ The essence of our demonstration lies in harnessing the capabilities of GPT-3.5,
 - open local host ( http://localhost:9009/)
 
 ### Demo: 
-![REST_application](Babak_EA_2023_10_11.mp4)
+![REST_application](/Data/Babak_EA_2023_10_11.gif)
 
 
 
